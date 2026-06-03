@@ -1,5 +1,7 @@
 # ShotAPI — Screenshot & Render MCP Server for AI Agents
 
+> 🇨🇳 中文用户：给 AI Agent 加上"看网页"能力！一条命令连接，无需翻墙，支持微信支付宝。
+
 Give AI agents eyes — let Claude, Cursor, and other agents capture webpages and render HTML directly through MCP.
 
 **One command to connect, zero setup:**
@@ -22,7 +24,8 @@ claude mcp add --transport streamable-http shotapi https://aiphotoshop.mynatapp.
 
 - **Direct access** — China tunnel, no VPN needed
 - **Free tier** — 100 screenshots + 100 renders/month (IP-based, no signup)
-- **Paid tier** — 20K+ calls/month with API Key ($9.90/mo Pro, $29.90/mo Business)
+- **Paid tier** — ¥29/月(标准版5000次) / ¥99/月(专业版20000次) — 支持微信支付宝
+- **Paid tier (International)** — $9.90/mo Pro / $29.90/mo Business
 
 ## Connection Modes
 
@@ -118,3 +121,7 @@ Parameters: `html` (required), `width`, `height`, `format`
 ## License
 
 This repository contains documentation and configuration only. The ShotAPI server software is proprietary.
+
+---
+
+**Keywords**: MCP server, screenshot API, render HTML, AI agent, Claude MCP, Cursor MCP, streamable-http, webpage capture, web screenshot, 截图API, 网页截图, AI截图工具, MCP服务器
