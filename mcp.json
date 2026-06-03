@@ -1,0 +1,28 @@
+{
+  "name": "shotapi",
+  "display_name": "ShotAPI",
+  "description": "Screenshot & Render API for AI Agents. MCP Server lets Claude, Cursor capture webpages and render HTML. Direct access, no VPN needed.",
+  "transport": "streamable-http",
+  "url": "https://aiphotoshop.mynatapp.cc/mcp",
+  "logo_url": "https://aiphotoshop.mynatapp.cc/favicon.ico",
+  "tools": [
+    {
+      "name": "screenshot_one_liner",
+      "description": "Capture a webpage as a JPEG screenshot. The simplest way to see what a webpage looks like. Returns a 1280x720 JPEG image with ads blocked."
+    },
+    {
+      "name": "screenshot",
+      "description": "Capture a webpage screenshot with full control over viewport, format, and element selection."
+    },
+    {
+      "name": "render",
+      "description": "Render HTML/CSS code as an image. Turn any markup into a visual preview. Auto-cropped to content."
+    }
+  ],
+  "pricing": {
+    "free": { "price_usd": 0, "limit": "200/month (100 screenshot + 100 render)" },
+    "starter": { "price_usd": 4.90, "limit": "5000/month each" },
+    "pro": { "price_usd": 9.90, "limit": "20000/month each" },
+    "business": { "price_usd": 29.90, "limit": "100000/month each" }
+  }
+}
