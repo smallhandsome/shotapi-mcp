@@ -23,9 +23,9 @@ claude mcp add --transport streamable-http shotapi https://aiphotoshop.mynatapp.
 | `render` | HTML/CSS → image. Turn markup into a visual preview |
 
 - **Direct access** — China tunnel, no VPN needed
-- **Free tier** — 100 screenshots + 100 renders/month (IP-based, no signup)
+- **Free tier** — 30 screenshots + 30 renders/month (IP-based, no signup)
 - **Paid tier** — ¥29/月(标准版5000次) / ¥99/月(专业版20000次) — 支持微信支付宝
-- **Paid tier (International)** — $9.90/mo Pro / $29.90/mo Business
+- **Paid tier (International)** — $4.90/mo Starter / $9.90/mo Pro
 
 ## Connection Modes
 
@@ -82,10 +82,9 @@ claude mcp add screenshot-api -e SHOTAPI_KEY=your_key python mcp_stdio.py
 
 | Tier | Price | Quota |
 |------|-------|-------|
-| Free | $0/mo | 100 screenshots + 100 renders/month (IP-based) |
+| Free | $0/mo | 30 screenshots + 30 renders/month (IP-based) |
 | Starter | $4.90/mo | 5,000 each |
 | Pro | $9.90/mo | 20,000 each |
-| Business | $29.90/mo | 100,000 each |
 
 Chinese users can pay via [爱发电](https://afdian.com/a/shotapi/plan) (WeChat/Alipay).
 
@@ -116,7 +115,7 @@ Parameters: `html` (required), `width`, `height`, `format`
 - **English Docs**: https://aiphotoshop.mynatapp.cc/en/docs
 - **Pricing**: https://aiphotoshop.mynatapp.cc/en/pricing
 - **Swagger**: https://aiphotoshop.mynatapp.cc/api-docs
-- **Contact**: contact@shotapi.com
+- **Contact**: shotapi@outlook.com
 
 ## License
 
